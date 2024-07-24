@@ -1,4 +1,4 @@
-# Patty_Portfolio
+# Patty_MySQL_Portfolio
 Data Analytics Portfolio
 
 MySQL Code
