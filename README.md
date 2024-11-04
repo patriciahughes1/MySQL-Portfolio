@@ -1,7 +1,7 @@
 # Patty's_MySQL_Portfolio
 ✈️ **Flying High: Analyzing Key Drivers of Passenger Satisfaction in Airline Customer Service**
 
-In this case study I plan to demonstrate my skills, including data exploration, statistical analysis, and predictive modeling, to uncover actionalbe insightsthat can enhance the customer experience. This case study wil explore and identify the main factors influencing airline passenger satisfaction. 
+In this case study I plan to demonstrate my skills, including data exploration, statistical analysis, predictive modeling, and data visualization, to uncover actionalbe insightsthat can enhance the customer experience. This case study wil explore and identify the main factors influencing airline passenger satisfaction. 
 
 By using MySQL for data querying and manipulation, I will conducting and end-to-end analysis. I will go through exploring satisfaction drivers and demographic trends to building a predictive model to classify customer satisfaction. 
 
@@ -19,3 +19,6 @@ The airline industry is heavily reliant on delivering excellent customer service
 * **How does passenger satisfaction vary by customer type and demographic?** By segmenting satisfaction levels by variables like customer type, age, and travel purpose, the analysis can reveal valuable insights about targeted service improvements.
 * **To what extent do operational delays and flight class impact satisfaction?** Understanding the role of delays and class type will highlight potential areas where operational changes could positively affect customer satisfaction.
 * **Can passenger satisfaction be predicted based on survey responses and other data?** A predictive model can serve as a valuable tool for anticipating customer sentiment and preparing service teams to meet or exceed passenger expectations.
+
+### Expected Outcomes:
+Through detailed data exploration, statistical analysis, and predictive modeling, this case study aims to provide actionable insights that could guide improvements in airline service offerings, marketing strategies, and operational processes. Additionally, this analysis will demonstrate my proficiency with MySQL for data manipulation and querying, as well as my skills in data exploration, analytical interpretation, and visualizations.
