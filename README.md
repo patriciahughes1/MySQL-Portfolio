@@ -1,5 +1,5 @@
 # Patty's_MySQL_Portfolio
-✈️ **Flying High: Analyzing Key Drivers of Passenger Satisfaction in Airline Customer Service**
+✈️ **Flying High: Analyzing Key Drivers of Passenger Satisfaction in Airline Customer Service** 
 
 In this case study I plan to demonstrate my skills, including data exploration, statistical analysis, predictive modeling, and data visualization, to uncover actionalbe insightsthat can enhance the customer experience. This case study wil explore and identify the main factors influencing airline passenger satisfaction. 
 
@@ -24,8 +24,33 @@ The airline industry is heavily reliant on delivering excellent customer service
 Through detailed data exploration, statistical analysis, and predictive modeling, this case study aims to provide actionable insights that could guide improvements in airline service offerings, marketing strategies, and operational processes. Additionally, this analysis will demonstrate my proficiency with MySQL for data manipulation and querying, as well as my skills in data exploration, analytical interpretation, and visualizations.
 
 ## Data Exploration
+Here we will dive deep into understanding the dataset and preparing for the analysis. 
+
+### Initial Data Assessment
+* Preview the data by using queries to examin the first few rows and check the schema of the dataset, reviewing the data types for each column.
+* Summary statistics to understand the distribution of each variable.
+* Explore categorical features and numberical ones to see how they relate to statisfaction.
+* Check for null or missing values in each column
+
+### Data Cleaning
+* Handle missing values: Using MySQL functions to fill in or ignore ulls where appropriate.
+* Outlier Detection: detect and review outliers in criticial columns.
+* Adjust Data Types: Ensure numerical columns are correctly typed.
+
+### Exploratory Data Analysis (EDA)
+* Column Summaries: Generate summary statistics (mean, median, mode, min, max) for numerical columns, and count unique values for categorical columns.
+* Numerical Variables: Use MySQL group by and count functions to examine distributions for key numerical fields such as Age, Flight Distance, and Delay Times.
+* Satisfaction Correlations: Compare Satisfaction with other columns using conditional aggregation to see which factors vary most by satisfaction level.
+* Delay Impact: Analyze the relationship between delays (Departure Delay in Minutes, Arrival Delay in Minutes) and satisfaction.
+* Customer Type and Satisfaction: Explore satisfaction levels across Customer Type (loyal vs disloyal) and Class (Business, Eco, Eco Plus) to understand whcih customers groups are more satisfied.
+* Age Groups: Create age group brackets (Young adults, middle-aged, and seniors) to analyze satisfaction by age group.
+* Delay Groups: Convert delay times into categories (No Delay, Short Delay, Long Delay) for easier analysis of delay impacts on satisfaction.
+
+
+_This exploration phase not only sets up the dataset for deeper analysis but also allows me to establish a thorough understanding of its structure and nuances. It will help me uncover actionable insights and demonstrate my ability to perform a complete and thoughtful analysis._
 
 ## Data Analysis
+
 
 ## Predictive Modeling
 
