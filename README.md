@@ -33,27 +33,54 @@ Here we will dive deep into understanding the dataset and preparing for the anal
 * Check for null or missing values in each column
 
 ### Data Cleaning
-* Handle missing values: Using MySQL functions to fill in or ignore ulls where appropriate.
-* Outlier Detection: detect and review outliers in criticial columns.
-* Adjust Data Types: Ensure numerical columns are correctly typed.
+* **Handle missing values:** Using MySQL functions to fill in or ignore ulls where appropriate.
+* **Outlier Detection:** detect and review outliers in criticial columns.
+* **Adjust Data Types:** Ensure numerical columns are correctly typed.
 
 ### Exploratory Data Analysis (EDA)
-* Column Summaries: Generate summary statistics (mean, median, mode, min, max) for numerical columns, and count unique values for categorical columns.
-* Numerical Variables: Use MySQL group by and count functions to examine distributions for key numerical fields such as Age, Flight Distance, and Delay Times.
-* Satisfaction Correlations: Compare Satisfaction with other columns using conditional aggregation to see which factors vary most by satisfaction level.
-* Delay Impact: Analyze the relationship between delays (Departure Delay in Minutes, Arrival Delay in Minutes) and satisfaction.
-* Customer Type and Satisfaction: Explore satisfaction levels across Customer Type (loyal vs disloyal) and Class (Business, Eco, Eco Plus) to understand whcih customers groups are more satisfied.
-* Age Groups: Create age group brackets (Young adults, middle-aged, and seniors) to analyze satisfaction by age group.
-* Delay Groups: Convert delay times into categories (No Delay, Short Delay, Long Delay) for easier analysis of delay impacts on satisfaction.
+* **Column Summaries:** Generate summary statistics (mean, median, mode, min, max) for numerical columns, and count unique values for categorical columns.
+* **Numerical Variables:** Use MySQL group by and count functions to examine distributions for key numerical fields such as Age, Flight Distance, and Delay Times.
+* **Satisfaction Correlations:** Compare Satisfaction with other columns using conditional aggregation to see which factors vary most by satisfaction level.
+* **Delay Impact:** Analyze the relationship between delays (Departure Delay in Minutes, Arrival Delay in Minutes) and satisfaction.
+* **Customer Type and Satisfaction:** Explore satisfaction levels across Customer Type (loyal vs disloyal) and Class (Business, Eco, Eco Plus) to understand whcih customers groups are more satisfied.
+* **Age Groups:** Create age group brackets (Young adults, middle-aged, and seniors) to analyze satisfaction by age group.
+* **Delay Groups:** Convert delay times into categories (No Delay, Short Delay, Long Delay) for easier analysis of delay impacts on satisfaction.
 
 
 _This exploration phase not only sets up the dataset for deeper analysis but also allows me to establish a thorough understanding of its structure and nuances. It will help me uncover actionable insights and demonstrate my ability to perform a complete and thoughtful analysis._
 
 ## Data Analysis
+This section will analyze the factors that contribute to passenger satisfaction using statistical techniques. The analysis will include a mix of summary statistics, correlations, segment analysis, and delayed impact analysis to uncover key insights.
 
+* **Descriptive Analysis:** I will generate summary statistics for some numerical features focusing on Satisfaction, Flight Distance, Age, and Delay times. Visualize the data distribution for each feature using histograms for continuous variables (e.g., Age, Flight Distance) and bar charts for categorical variables (e.g., Class, Customer Type). Assess missing values and outliers, deciding whether to impute, exclude, or handle them based on their impact on the dataset.
+* **Correlation Analysis:** Calculate correlation coefficients between Satisfaction and numerical variables like Departure/Arrival Delay, Flight Distance, and various satisfaction metrics (e.g., Seat Comfort, Inflight Entertainment). Explore interactions among satisfaction metrics (e.g., whether higher Seat Comfort correlates with higher Inflight Service satisfaction) to determine interdependencies.
+* **Segment Analysis:** Group passengers by categorical features (e.g., Customer Type, Class, Type of Travel) and calculate average satisfaction scores within each group. Use visualization tools like box plots to show satisfaction distribution across Age and Class or scatter plots to analyze patterns across Flight Distance and Satisfaction by travel purpose. Examine segment differences, such as how satisfaction trends for loyal vs. disloyal customers or how business vs. personal travel influences key satisfaction factors.
+* **Delay Impact Analysis:** Investigate the relationship between Departure and Arrival Delays and Satisfaction using linear regression or correlation coefficients.
+Group delay times into categories (e.g., 0-15 mins, 15-30 mins, etc.) and assess satisfaction scores for each group to observe threshold points where satisfaction significantly drops.
+Visualize the delay data against satisfaction, possibly using a line graph or scatter plot, to emphasize how increasing delays impact passenger experience.
 
 ## Predictive Modeling
+*  Preprocess the data, encoding categorical variables and standardizing features as needed.
+*  Train a predictive model (e.g., logistic regression, decision tree, or random forest) to classify passengers as “Satisfied,” “Neutral,” or “Dissatisfied.”
+*  Fine-tune the model, optimizing parameters to improve classification accuracy.
+*  Evaluate model performance using metrics like accuracy, precision, recall, and F1 score, and generate a confusion matrix to analyze misclassifications.
 
 ## Insights and Recommendations
+1. Passenger Satisfaction Drivers
+   * Insight:
+   * Recommendation:
+   
+2. Segmented Satisfaction Insights
+   * Insight:
+   * Recommendation:
+3. Impact of Delays on Satisfaction
+   * Insight:
+   * Recommendation:
+4. Online and Offline Booking Satisfaction
+   * Insight:
+   * Recommendation:
+5. Predictive Modeling for Customer Retention
+   * Insight:
+   * Recommendation:
 
 ## Conclusion 
