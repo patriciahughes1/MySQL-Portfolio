@@ -5,6 +5,8 @@ In this case study I plan to demonstrate my skills, including data exploration, 
 
 By using MySQL for data querying and manipulation, I will conducting and end-to-end analysis. I will go through exploring satisfaction drivers and demographic trends to building a predictive model to classify customer satisfaction. 
 
+[Airline Passenger Satisfaction Data](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction?resource=download)
+
 ## Problem Statement
 The airline industry is heavily reliant on delivering excellent customer service to maintain customer loyalty and satisfaction, particularly given its highly competitive landscape. Customer satisfaction influences customer retention, brand reputation, and overall business profitability. This case study seeks to address the question: What are the main factors contributing to passenger satisfaction or dissatisfaction?
 
